@@ -11,4 +11,5 @@ public interface UserService {
     List<User> listUsers();
     void update(User user);
     void update(long id);
+    User findById(long id);
 }
