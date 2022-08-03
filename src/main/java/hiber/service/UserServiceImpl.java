@@ -26,7 +26,6 @@ public class UserServiceImpl implements UserService {
         userDao.delete(id);
     }
 
-    @Transactional
     @Override
     public List<User> listUsers() {
         return userDao.listUsers();
